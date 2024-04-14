@@ -1,0 +1,33 @@
+.faq__cover{
+    padding: 20px;
+    flex: 1;
+}
+
+.faq__title{
+    height: 50px;
+    width: 100%;
+}
+
+
+.faq__contenct{
+    background-color: #F7F7F7;
+    height: calc(100vh - 40px - 50px);
+    border-radius: 20px;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.faq__contenct{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.faq__contenct > li > h4{
+    font-size: 24px;
+}
+.faq__contenct > li > p{
+    font-size: 18px;
+    margin-top: 10px;
+}
