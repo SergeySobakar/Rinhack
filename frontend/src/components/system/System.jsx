@@ -10,7 +10,7 @@ export default function System() {
   const { data } = useQuery({
     queryKey: ["data"],
     queryFn: async () => {
-      const res = await axios.get("http://127.0.0.1:8000")
+      const res = await axios.get("http://127.0.0.1:8000/api/security-data")
       return res.data
     },
     refetchInterval: 1000
